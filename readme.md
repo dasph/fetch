@@ -15,14 +15,14 @@ import { fetch } from 'fetch'
 fetching a json response
 
 ```
-const data = fetch<ResponseType>('https://jsonplaceholder.typicode.com/todos/1').then((({ json }) => json()
+const data = fetch<ResponseType>('https://jsonplaceholder.typicode.com/todos/1').then(({ json }) => json())
 ```
 
 sending a JSON payload (as body) to a server
 
 ```
 const payload = { id: 5, value: 'a string' }
-const res = fetch('https://yourwebsite.com/api/method', JSON.stringify(payload)).then((({ json }) => json()
+const res = fetch('https://yourwebsite.com/api/method', JSON.stringify(payload)).then(({ json }) => json())
 ```
 
 ## Additional
