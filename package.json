@@ -21,7 +21,7 @@
     "url": "https://github.com/daspharion/fetch/issues"
   },
   "homepage": "https://github.com/daspharion/fetch#readme",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^14.14.37"
   }
 }
